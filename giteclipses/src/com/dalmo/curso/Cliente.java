@@ -18,6 +18,17 @@ public class Cliente {
 		this.telefone = telefone;
 	}
 	
+	public Cliente() {
+		 
+	}
+	public Cliente(String nome, String telefone) {
+		 
+		this.nome = nome;
+		this.telefone = telefone;
+	}
+	
+	
+	
 	
 
 }

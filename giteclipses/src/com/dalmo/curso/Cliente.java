@@ -30,6 +30,13 @@ public class Cliente {
 	public String toString() {
 		return "Cliente [nome=" + nome + ", telefone=" + telefone + "]";
 	}
+	 
+	public void verificaNome(String nome) {
+		 
+		this.getNome().equalsIgnoreCase(nome);
+	}
+	
+	
 	
 	
 	
